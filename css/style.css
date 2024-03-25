@@ -28,6 +28,19 @@ body {
   	box-size:border-box;
 }
 
+@media (max-width: 576px) {
+	.home-page {
+	border: 2px solid red !important;
+	margin: .75em .75em !important;
+	position: relative;
+	outline: 2px solid red;
+  	outline-offset: -.75em;
+  	padding: 1em;
+  	background-color: pink;
+  	box-size:border-box;
+}
+}
+
 .page-border {
 	border-top: 2px solid red !important;
 	margin: 2em 2em;
@@ -42,9 +55,9 @@ body {
 	width: 100%;
 }
 
-@media (min-width: @screen-sm-min) { 
+@media (max-width: 576px) { 
 	.page-border {
-	border-top: 2px solid red !important;
+	border-top: 2px solid blue !important;
 	margin: .5em .5em;
 	position: relative;
 }
@@ -87,6 +100,25 @@ nav ul li a {
     float:none;
 }
 
+@media (max-width: 576px) {
+	.navbar-nav > li {
+		width: 100%;
+	}
+}
+
+.navbar-toggler {
+	border: none;
+	text-align: center;
+	display: block;
+	margin: auto;
+	text-transform: uppercase;
+	font-size: 1em;
+}
+
+.navbar-toggler:focus {
+	box-shadow: none;
+}
+
 .curvy {
 	font-family: "interstate-condensed", sans-serif;
 	font-weight: 400;
@@ -100,13 +132,19 @@ nav ul li a {
 
 .home-page h1 {
 	font-family: "tilda-grande", serif;
-	font-weight: 600;
+	font-weight: 400;
 	font-style: normal;
 	font-size: 5em !important;
 	display: flex;
 	align-items: center;
 	color: red;
 	flex-direction: column;
+}
+
+@media (max-width: 576px){
+	.home-page h1 {
+		font-size: 3em !important;
+	}
 }
 
 .home-page main {
