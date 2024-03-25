@@ -1,0 +1,168 @@
+/* Tilda font */
+
+@font-face {
+  font-family: tilda-grande;
+  src: url(../fonts/Tilda-Grande.otf);
+}
+
+@font-face {
+  font-family: tilda-petite;
+  src: url(../fonts/Tilda-Petite.otf);
+}
+
+body {
+    font-size: 20px;
+    font-family: "interstate-condensed", sans-serif;
+    color: darkblue;
+    height: 100vh;
+}
+
+.home-page {
+	border: 2px solid red !important;
+	margin: 2em 2em;
+	position: relative;
+	outline: 2px solid red;
+  	outline-offset: -1.2em;
+  	padding: 2em;
+  	background-color: pink;
+  	box-size:border-box;
+}
+
+.page-border {
+	border-top: 2px solid red !important;
+	margin: 2em 2em;
+	position: relative;
+}
+
+.page-border::before {
+	content: " ";
+	margin: 1em 0em;
+	border-top: 2px solid red;
+	position: absolute;
+	width: 100%;
+}
+
+main {
+    padding: 1em 2em;
+}
+
+nav {
+	font-family: "interstate-condensed", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1em;
+	text-transform: uppercase;
+}
+
+nav ul li a {
+	color: darkblue !important;
+}
+
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+}
+
+.curvy {
+	font-family: "interstate-condensed", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+    font-size: 1em !important;
+    text-transform: uppercase !important;
+    color: red;
+    margin-bottom: .75em;
+    display: block;
+}
+
+.home-page h1 {
+	font-family: "tilda-grande", serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 5em !important;
+	display: flex;
+	align-items: center;
+	color: red;
+	flex-direction: column;
+}
+
+.home-page main {
+	margin-top: 2em;
+}
+
+h1 {
+	font-family: "tilda-grande", serif;
+	font-weight: 400;
+	font-size: 5em;
+	font-style: normal;
+	text-align: center;
+	color: red;
+	margin-bottom: .5em;
+}
+
+h2 {
+	font-family: "interstate-condensed", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+    font-size: 1em !important;
+    text-transform: uppercase !important;
+    color: darkblue;
+    border-bottom: 2px solid;
+    display: inline-block;
+    text-align: center;
+    margin: 2em 0 1em 0;
+}
+
+h2:first-of-type {
+	margin-top: 0;
+	margin-bottom: 1em;
+}
+
+small {
+	text-transform: uppercase;
+	font-size: .75em;
+}
+
+.table{
+	width: 100%;
+	margin: auto;
+}
+
+tr {
+	border: hidden;
+}
+
+td {
+	font-style: italic;
+	color: darkblue !important;
+	text-align: left;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.time {
+	margin-right: 1.5em;
+	display: block;
+}
+
+.abbie {
+	order: 1;
+}
+
+.ampersand {
+	font-family: "interstate-condensed", sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: .3em;
+	order: 2;
+}
+
+.ashley {
+	order: 3;
+}
