@@ -10,6 +10,7 @@
   src: url(../fonts/Tilda-Petite.otf);
 }
 
+
 body {
     font-size: 20px;
     font-family: "interstate-condensed", sans-serif;
@@ -113,10 +114,27 @@ nav ul li a {
 	margin: auto;
 	text-transform: uppercase;
 	font-size: 1em;
+	color: darkblue;
 }
 
 .navbar-toggler:focus {
 	box-shadow: none;
+}
+
+.navbar-toggler.collapsed::after {
+    content: '▼';
+    font-size: .5em;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: .25em;
+}
+
+.navbar-toggler::after {
+    content: '▲';
+    font-size: .5em;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: .25em;
 }
 
 .curvy {
