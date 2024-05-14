@@ -35,7 +35,7 @@ body {
 }
 
 .container-fluid {
-    max-width: 960px;
+    max-width: 860px;
 }
 
 @media (max-width: 576px) {
@@ -369,4 +369,17 @@ td {
     width: 75%;
     margin: 0 auto;
     display: block;
+}
+
+.contact-name {
+    margin-right: .5em;
+}
+
+th {
+    text-align: left;
+    color: #21409a !important;
+}
+
+.phone-number {
+    text-align: right;
 }
