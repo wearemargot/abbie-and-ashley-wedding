@@ -190,7 +190,7 @@ margin-top: .5em;
     font-family: "interstate-condensed", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.2em !important;
+    font-size: 1em !important;
     text-transform: uppercase !important;
     color: #ed184b;
     margin-bottom: .75em;
@@ -249,11 +249,13 @@ h2 {
     font-size: 2em !important;
     text-transform: uppercase !important;
     color: #21409a;
-    border-bottom: 2px solid;
-    display: inline-block;
     text-align: center;
     margin: 3em 0 .5em 0;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    line-height: 1.5;
 }
+
 
 h2:first-of-type {
     margin-top: 0;
